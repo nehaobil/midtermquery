@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color: #A4DFA0;
+  margin-left: 3vw;
+  margin-top: 0vw;
+  font-size: 34px;
+}
+
+h1
+{
+  font-size: 34px;
+  font-family: "Fredoka One";
+  color: #FDEEAE;
+}
+
+.lightyellow
+{
+  font-family: "Fredoka One";
+  color: #FDEEAE;
+}
+.yellow
+{
+  font-family: "Fredoka One";
+  color: #FFDD54;
+}
+.cream
+{
+  font-family: "Fredoka One";
+  color: #FFF6D0;
+}
+.gold
+{
+  font-family: "Fredoka One";
+  color: #FFE36F;
+}
+a:hover
+{
+  background-color: #D9CEEE;
+  border-color: #C7BBDD;
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+}
+
+.stage1
+{
+  position: fixed;
+  right: 315px;
+  top: 20px;
+  background-color:#F5E672;
+  border:25px solid #E9DB72;
+  height:100px;
+  border-radius:50%;
+  width:100px;
+}
+.stage2
+{
+  position: fixed;
+  right: 70px;
+  top: 60px;
+  background-color:#F5E672;
+  border:10px solid #E9DB72;
+  height:125px;
+  border-radius:50%;
+  width:125px;
+}
+.stage3
+{
+  position: fixed;
+  right: 470px;
+  top: 150px;
+  background-color:#F5E672;
+  border:60px solid #E9DB72;
+  height:150px;
+  border-radius:50%;
+  width:150px;
+}
+.stage4
+{
+  position: fixed;
+  right: 90px;
+  top: 230px;
+  background-color:#F5E672;
+  border:40px solid #E9DB72;
+  height:200px;
+  border-radius:50%;
+  width:200px;
+}
+.stage5
+{
+  position: fixed;
+  right: 310px;
+  top: 315px;
+  background-color:#F5E672;
+  border:20px solid #E9DB72;
+  height:250px;
+  border-radius:50%;
+  width:250px;
+}
+.content
+{
+  position:relative;
+  left: 570px;
+  bottom: 560px;
+  width: 620px;
+  height: 440px;
+  background-color: #E9DB72;
+  border:20px solid #84CC7F;
+  border-radius:10%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+h2
+{
+  color: #FFF;
+  font-size: 35px;
+  font-family: "Fredoka One";
+}
+p
+{
+  color: #60BA5A;
+  font-size: 25px;
+  font-family: "Fira Sans";
+}
+.home
+{
+  position: fixed;
+  left: 900px;
+  top: 510px;
+  width: 50px;
+  height: 50px;
+  background: #E1D15B;
+  border-radius:10%;
+}
+.back
+{
+  position: fixed;
+  left: 750px;
+  top: 510px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 50px solid #E1D15B;;
+  border-bottom: 25px solid transparent;
+  border-radius:10%;
+}
+.next
+{
+  position: fixed;
+  left: 1050px;
+  top: 510px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #E1D15B;;
+  border-bottom: 25px solid transparent;
+  border-radius:10%;
+}
+
+@media screen and (max-width: 600px)
+{
+  body
+  {
+    background-color: #A4DFA0;
+    margin-left: 3vw;
+    margin-top: 0vw;
+  }
+  h1
+  {
+    font-size: 25px;
+    font-family: "Fredoka One";
+    color: #FDEEAE;
+  }
+  .stage1
+  {
+    position: fixed;
+    left: 40vw;
+    top: 25vh;
+    background-color:#F5E672;
+    border:15px solid #E9DB72;
+    height:70px;
+    border-radius:50%;
+    width:70px;
+  }
+  .stage2
+  {
+    position: fixed;
+    left: 60vw;
+    top: 32vh;
+    background-color:#F5E672;
+    border:14px solid #E9DB72;
+    height:95px;
+    border-radius:50%;
+    width:95px;
+  }
+  .stage3
+  {
+    position: fixed;
+    left: 10vw;
+    top: 40vh;
+    background-color:#F5E672;
+    border:30px solid #E9DB72;
+    height:120px;
+    border-radius:50%;
+    width:120px;
+  }
+  .stage4
+  {
+    position: fixed;
+    left: 62vw;
+    top: 50vh;
+    background-color:#F5E672;
+    border:20px solid #E9DB72;
+    height:170px;
+    border-radius:50%;
+    width:170px;
+  }
+  .stage5
+  {
+    position: fixed;
+    left: 16vw;
+    top: 60vh;
+    background-color:#F5E672;
+    border:9px solid #E9DB72;
+    height:220px;
+    border-radius:50%;
+    width:220px;
+  }
+}
